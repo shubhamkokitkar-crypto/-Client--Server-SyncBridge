@@ -1,0 +1,23 @@
+Server started on 127.0.0.1:5000
+Client Connected
+Client Connected
+Server: hii client
+Client: hii server
+Client Disconnected
+Client Connected
+Server: hii
+Client: hi
+Client Disconnected
+Client Connected
+Server: hii
+Client Disconnected
+Client Connected
+Server: hii
+Client Disconnected
+Client Connected
+Server: hii
+Client: hii
+Client connection lost
+Client Disconnected
+Client connection lost
+Client Disconnected

@@ -1,0 +1,16 @@
+2026-01-22 13:38:24 : Server started on port 5000
+2026-01-22 13:38:25 : Client connected
+2026-01-22 13:38:32 : Client: hii
+2026-01-22 13:38:37 : Server: hii
+2026-01-22 16:04:13 : Server started on port 5000
+2026-01-22 16:04:15 : Client connected
+2026-01-22 16:04:21 : Client: hii
+2026-01-22 16:04:27 : Server: hii
+2026-01-22 16:12:19 : Client disconnected
+2026-01-23 20:37:08 : Server application started.
+2026-01-23 20:37:19 : Server started on port 5000
+2026-01-23 20:37:22 : Client connected.
+2026-01-23 20:53:02 : Server started on 127.0.0.1:5000
+2026-01-23 20:53:05 : Client connected.
+2026-01-23 20:54:18 : Server started on 0.0.0.0:5000
+2026-01-23 20:54:21 : Client connected.

@@ -1,0 +1,8 @@
+Server started on 127.0.0.1:5000
+[12-02-2026 04:36:24 PM] Server: Client Connected
+[12-02-2026 04:36:51 PM] Server: Client Connected
+[12-02-2026 04:37:02 PM] Client: hii
+[12-02-2026 04:37:02 PM] Server: Hii
+[12-02-2026 04:37:10 PM] Server: hello
+Client Disconnected
+Client Disconnected

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TCPServerWPF1\\TCPServerWPF1.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TCPClientWPF1\\TCPClientWPF1.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

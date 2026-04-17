@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3850008-0E46-4749-8341-C251314F8734}|TCPClientWPF1\\TCPClientWPF1.csproj|c:\\users\\shubham\\onedrive\\documents\\github\\-client--server-syncbridge\\syncbridge\\tcpclientwpf1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3850008-0E46-4749-8341-C251314F8734}|TCPClientWPF1\\TCPClientWPF1.csproj|solutionrelative:tcpclientwpf1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3850008-0E46-4749-8341-C251314F8734}|TCPClientWPF1\\TCPClientWPF1.csproj|C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\tcpclientwpf1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3850008-0E46-4749-8341-C251314F8734}|TCPClientWPF1\\TCPClientWPF1.csproj|solutionrelative:tcpclientwpf1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A07888-BAC2-4D68-9ECA-A14AD53B5692}|TCPServerWPF1\\TCPServerWPF1.csproj|C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\tcpserverwpf1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46A07888-BAC2-4D68-9ECA-A14AD53B5692}|TCPServerWPF1\\TCPServerWPF1.csproj|solutionrelative:tcpserverwpf1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A07888-BAC2-4D68-9ECA-A14AD53B5692}|TCPServerWPF1\\TCPServerWPF1.csproj|C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\tcpserverwpf1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A07888-BAC2-4D68-9ECA-A14AD53B5692}|TCPServerWPF1\\TCPServerWPF1.csproj|solutionrelative:tcpserverwpf1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 18,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPServerWPF1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TCPServerWPF1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPServerWPF1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TCPServerWPF1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowJ8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T03:37:08.546Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPClientWPF1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TCPClientWPF1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPClientWPF1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TCPClientWPF1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswMECAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T03:37:03.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPServerWPF1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TCPServerWPF1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPServerWPF1\\MainWindow.xaml",
+              "RelativeToolTip": "TCPServerWPF1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-18T03:37:06.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPClientWPF1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TCPClientWPF1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Shubham\\OneDrive\\Documents\\GitHub\\-Client--Server-SyncBridge\\Syncbridge\\TCPClientWPF1\\MainWindow.xaml",
+              "RelativeToolTip": "TCPClientWPF1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-18T03:37:00.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Flurl.Http.Newtonsoft</name>
+    </assembly>
+    <members>
+        <member name="T:Flurl.Http.Newtonsoft.ExtensionMethods">
+            <summary>
+            Extensions to Flurl objects that use Newtonsoft.Json.
+            </summary>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.GetJsonAsync(Flurl.Http.IFlurlResponse)">
+            <summary>
+            Deserializes a JSON-formatted HTTP response body to a dynamic object.
+            </summary>
+            <returns>A Task whose result is a dynamic object containing data in the response body.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.GetJsonListAsync(Flurl.Http.IFlurlResponse)">
+            <summary>
+            Deserializes a JSON-formatted HTTP response body to a list of dynamic objects.
+            </summary>
+            <returns>A Task whose result is a list of dynamic objects containing data in the response body.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.ReceiveJson(System.Threading.Tasks.Task{Flurl.Http.IFlurlResponse})">
+            <summary>
+            Deserializes a JSON-formatted HTTP response body to a dynamic object. Intended to chain off an async call.
+            </summary>
+            <returns>A Task whose result is a dynamic object containing data in the response body.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.ReceiveJsonList(System.Threading.Tasks.Task{Flurl.Http.IFlurlResponse})">
+            <summary>
+            Deserializes a JSON-formatted HTTP response body to a list of dynamic objects. Intended to chain off an async call.
+            </summary>
+            <returns>A Task whose result is a list of dynamic objects containing data in the response body.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.GetResponseJsonAsync(Flurl.Http.FlurlHttpException)">
+            <summary>
+            Deserializes a JSON-formatted error response body to a dynamic object.
+            </summary>
+            <returns>A Task whose result is a dynamic object containing data in the response body.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.UseNewtonsoft(Flurl.Http.Configuration.IFlurlClientBuilder,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            Shortcut to use NewtonsoftJsonSerializer with this IFlurlClientBuilder.
+            </summary>
+            <param name="builder">This IFlurlClientBuilder.</param>
+            <param name="settings">Optional custom JsonSerializerSettings.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.ExtensionMethods.UseNewtonsoft(Flurl.Http.Configuration.IFlurlClientCache,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            Shortcut to use NewtonsoftJsonSerializer with all FlurlClients registered in this cache.
+            </summary>
+            <param name="cache">This IFlurlClientCache.</param>
+            <param name="settings">Optional custom JsonSerializerSettings.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Flurl.Http.Newtonsoft.GeneratedExtensions">
+            <summary>
+            Fluent extension methods on String, Url, Uri, and IFlurlRequest.
+            </summary>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonAsync(Flurl.Http.IFlurlRequest,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Sends an asynchronous GET request.
+            </summary>
+            <param name="request">This IFlurlRequest</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a dynamic.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonListAsync(Flurl.Http.IFlurlRequest,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Sends an asynchronous GET request.
+            </summary>
+            <param name="request">This IFlurlRequest</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a list of dynamics.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonAsync(Flurl.Url,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="url">This Flurl.Url.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a dynamic.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonListAsync(Flurl.Url,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="url">This Flurl.Url.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a list of dynamics.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="url">This URL.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a dynamic.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonListAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="url">This URL.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a list of dynamics.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonAsync(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="uri">This System.Uri.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a dynamic.</returns>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.GeneratedExtensions.GetJsonListAsync(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Creates a FlurlRequest and sends an asynchronous GET request.
+            </summary>
+            <param name="uri">This System.Uri.</param>
+            <param name="completionOption">The HttpCompletionOption used in the request. Optional.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <returns>A Task whose result is the JSON response body deserialized to a list of dynamics.</returns>
+        </member>
+        <member name="T:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer">
+            <summary>
+            ISerializer implementation based on Newtonsoft.Json.
+            Default serializer used in calls to GetJsonAsync, PostJsonAsync, etc.
+            </summary>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer.#ctor(Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer"/> class.
+            </summary>
+            <param name="settings">Settings to control (de)serialization behavior.</param>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer.Serialize(System.Object)">
+            <summary>
+            Serializes the specified object to a JSON string.
+            </summary>
+            <param name="obj">The object to serialize.</param>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer.Deserialize``1(System.String)">
+            <summary>
+            Deserializes the specified JSON string to an object of type T.
+            </summary>
+            <param name="s">The JSON string to deserialize.</param>
+        </member>
+        <member name="M:Flurl.Http.Newtonsoft.NewtonsoftJsonSerializer.Deserialize``1(System.IO.Stream)">
+            <summary>
+            Deserializes the specified stream to an object of type T.
+            </summary>
+            <param name="stream">The stream to deserialize.</param>
+        </member>
+    </members>
+</doc>

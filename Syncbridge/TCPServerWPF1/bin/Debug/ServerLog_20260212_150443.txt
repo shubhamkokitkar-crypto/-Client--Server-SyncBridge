@@ -1,0 +1,10 @@
+Server started on 127.0.0.1:5000
+Client Connected
+Client Connected
+[2026-02-12 15:05:44.705] Client: Hii
+[2026-02-12 15:05:44.708] Server: Hii
+[2026-02-12 15:05:55.484] Client: Hii
+[2026-02-12 15:05:55.489] Server: Hii
+[2026-02-12 15:06:05.196] Server: Hii
+Client Disconnected
+Client Disconnected

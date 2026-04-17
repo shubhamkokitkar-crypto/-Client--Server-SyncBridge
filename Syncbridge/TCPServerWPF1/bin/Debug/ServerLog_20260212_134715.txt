@@ -1,0 +1,5 @@
+13:47:31 - Server started on 127.0.0.1:5000
+13:47:35 - Client Connected
+13:47:44 - Server: Hii
+13:47:52 - Client: Hii
+13:47:52 - Server Auto Reply: Message Received

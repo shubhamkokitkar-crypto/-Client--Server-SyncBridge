@@ -1,0 +1,13 @@
+Server started on 127.0.0.1:5000
+Client Connected
+Client Connected
+2026-02-12 11:29:09 ; Server ; hii
+2026-02-12 11:29:28 ; Client ; hii
+2026-02-12 11:29:28 ; Server ; Hello Client
+2026-02-12 11:30:08 ; Client ; hii
+2026-02-12 11:30:08 ; Server ; Hello Client
+2026-02-12 11:30:51 ; Server ; hii
+2026-02-12 11:31:08 ; Server ; hii
+2026-02-12 11:31:17 ; Client ; hii
+2026-02-12 11:31:17 ; Server ; Hello Client
+Client Disconnected

@@ -1,0 +1,7 @@
+---- New Log File Created ----
+Client Connected
+Server: hii client
+Client: hii
+Client Connected
+Client Connected
+Client Connected
