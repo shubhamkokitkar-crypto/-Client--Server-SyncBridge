@@ -1,0 +1,106 @@
+﻿<Window x:Class="WpfTcpServer.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="TCP Server" Height="500" Width="750">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!-- Top Panel -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Content="IP:"/>
+            <!-- NEW IP ComboBox -->
+            <ComboBox x:Name="cmbIP" Width="180" Margin="5" IsEditable="True"/>
+            <Label Content="Port:" Margin="10,0,0,0"/>
+            <ComboBox x:Name="cmbPort" Width="120" IsEditable="True" Margin="5">
+                <ComboBoxItem Content="5000"/>
+                <ComboBoxItem Content="6000"/>
+                <ComboBoxItem Content="7000"/>
+            </ComboBox>
+            <Button Content="Start" Width="80" Margin="10,0" Click="btnStart_Click"/>
+            <Button Content="Open Log" Width="90" Margin="10,0" Click="btnOpenLog_Click"/>
+            <Button Content="Clear Log" Width="90" Click="btnClearLog_Click"/>
+        </StackPanel>
+        <!-- Log Area -->
+        <TextBox x:Name="txtLog" Grid.Row="1" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+        <!-- Bottom Panel -->
+        <!-- Bottom Panel -->
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- First Line : Message + Send -->
+            <Grid Grid.Row="0" Margin="0,0,0,8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox x:Name="txtMessage"
+                 Grid.Column="0"
+                 Height="25"
+                 Margin="0,0,10,0"
+                 VerticalAlignment="Center"/>
+
+                <Button Content="Send"
+                Grid.Column="1"
+                Width="95"
+                Height="25"
+                Click="btnSend_Click"/>
+            </Grid>
+            <!-- Second Line : All controls in one line -->
+            <Grid Grid.Row="1" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="130"/>
+                </Grid.ColumnDefinitions>
+
+            <ComboBox x:Name="cmbDataFiles"
+              Grid.Column="0"
+              Width="155"
+              Height="25"
+              Margin="0,0,5,0"/>
+
+            <Button Content="Fetch CSV"
+            Grid.Column="1"
+            Width="85"
+            Height="25"
+            Margin="0,0,5,0"
+            Click="btnFetchCsv_Click"/>
+
+            <Button x:Name="btnRefresh"
+            Grid.Column="2"
+            Content="Refresh"
+            Width="85"
+            Height="25"
+            Margin="0,0,5,0"
+            Click="btnRefresh_Click"/>
+
+            <Button Name="btnClearTable"
+            Grid.Column="3"
+            Content="Clear Table"
+            Width="95"
+            Height="25"
+            Margin="0,0,5,0"
+            Click="btnClearTable_Click"/>
+
+            <ComboBox x:Name="cmbSqlTables"
+              Grid.Column="4"
+              Width="145"
+              Height="25"
+              Margin="0,0,5,0"/>
+
+            <Button Content="Fetch SQL Table"
+            Grid.Column="5"
+            Width="120"
+            Height="25"
+            Click="btnFetchSql_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

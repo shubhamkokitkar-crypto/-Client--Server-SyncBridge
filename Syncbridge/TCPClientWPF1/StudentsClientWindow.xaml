@@ -1,0 +1,13 @@
+﻿<Window x:Class="TCPClientWPF1.StudentsClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Students Data"
+        Height="400"
+        Width="600">
+
+    <Grid Margin="10">
+        <DataGrid x:Name="dgStudents"
+          AutoGenerateColumns="False"
+          IsReadOnly="True"/>
+    </Grid>
+</Window>

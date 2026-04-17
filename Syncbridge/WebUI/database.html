@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Database Connection</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 350px;
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1f4fd8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="modal-content">
+  <h3>Database Connection</h3>
+ <input type="text" id="serverName" placeholder="Enter Server Name">
+<input type="text" id="dbName" placeholder="Enter Database Name">
+
+  <select id="authType">
+  <option value="sql">SQL Authentication</option>
+  <option value="windows">Windows Authentication</option>
+  </select>
+
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="connectDB()">Connect</button>
+</div>
+
+<script>
+function connectDB() {
+
+  const server = document.getElementById("serverName").value.trim();
+  const db = document.getElementById("dbName").value.trim();
+  const authType = document.getElementById("authType").value;
+  let user = document.getElementById("username").value.trim();
+  let pass = document.getElementById("password").value.trim();
+
+  // ✅ Validation
+  if (!server || !db) {
+    alert("Please enter Server Name and Database Name");
+    return;
+  }
+
+  // ✅ Windows Auth → clear user/pass
+  if (authType === "windows") {
+    user = "";
+    pass = "";
+  }
+
+  // ✅ Send to parent (MAIN PAGE)
+  window.parent.postMessage({
+    type: "connectDatabase",
+    server: server,
+    db: db,
+    user: user,
+    pass: pass
+  }, "*");
+
+ // alert("Database connection request sent");
+
+}
+document.getElementById("authType").addEventListener("change", function () {
+
+  const isWindows = this.value === "windows";
+
+  document.getElementById("username").disabled = isWindows;
+  document.getElementById("password").disabled = isWindows;
+
+});
+</script>
+
+</body>
+</html>
